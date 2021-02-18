@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jirevwe.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/another-fixed-page/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/post/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/2021/02/15/techical-debt/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/a-menu-page-using-hugo-menu-templates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/fixed/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jirevwe.github.io/tags/</loc>
+  </url>
+  
+</urlset>

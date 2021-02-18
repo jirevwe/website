@@ -1,0 +1,145 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> </title>
+    <link>https://jirevwe.github.io/</link>
+    <language>en-us</language>
+    <author>Raymond Tukpe</author>
+    <rights>(C) 2021</rights>
+    <updated>2021-02-15 00:00:00 &#43;0000 UTC</updated>
+
+    
+      <item>
+        <title>Techical Debt</title>
+        <link>https://jirevwe.github.io/2021/02/15/techical-debt/</link>
+        <pubDate>Mon, 15 Feb 2021 00:00:00 UTC</pubDate>
+        <author>Raymond Tukpe</author>
+        <guid>https://jirevwe.github.io/2021/02/15/techical-debt/</guid>
+        <description>&lt;p&gt;Technical debt is defined as &lt;em&gt;“…the implied cost of additional rework caused by choosing an ill-suited solution —could be easy, limited or over-engineered— now as opposed to using an appropriate solution.”&lt;/em&gt; [1]&lt;/p&gt;
+&lt;p&gt;It is the effort that builds up when a team makes a conscious decision to implement code that’s regarded as a quick fix, instead of building out the best solution. The &lt;em&gt;quick fix&lt;/em&gt; is the “debt” and like any kind of debt, it accrues interest over time, so the additional effort built up which could be time, money or resources is the tech debt that builds up and makes it harder to easily implement a better solution. Tech debt is not bad and it is unavoidable; time to market pressure amongst others is what makes tech debt unavoidable, that is if the team doesn’t plan on being in development hell forever 🌝.&lt;/p&gt;
+&lt;h1 id=&#34;where-does-technical-debt-come-from&#34;&gt;Where Does Technical Debt Come From?&lt;/h1&gt;
+&lt;p&gt;All these incur technical debt because they harm productivity. Some can be directly influenced by the engineering team, others can be influenced by the management.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Bad architecture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inconsistent project structure&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Code duplication&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Low test coverage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Poor code documentation (or a complete lack of documentation)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Potential bugs not fixed on time&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unnecessarily complex code (over-engineered code)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Code smells&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scope creep&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lack of a QA process&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inconsistent deadlines&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CTO who thinks they’re a god 👀&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;are-there-other-types-of-debt&#34;&gt;Are there other types of debt?&lt;/h1&gt;
+&lt;p&gt;Not all software projects issues are as a result of Technical Debt, so we may ask ourselves, are there other types of debt? These are a few types of debt which are faced by teams around the world.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Quality Debt&lt;/strong&gt;: is caused by identified defects in the software built.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Process Debt&lt;/strong&gt;: is caused by a lack of team processes or poorly implemented processes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Feature Debt&lt;/strong&gt;: is caused by a team releasing useless or delayed features. It can also be caused by releasing incomplete features with hope to go back and finish and never going back.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;User Experience Debt&lt;/strong&gt;: is caused by inconsistent or poor user experience which has to be redone later.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Skill Debt&lt;/strong&gt;: is caused by a lack of skills which are required by the team.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;categorization&#34;&gt;Categorization&lt;/h1&gt;
+&lt;p&gt;How is debt accrued you ask? Well, tech debt can be introduced into software projects in several ways. These three types of debt:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deliberate technical debt&lt;/strong&gt; can be described as intentional choices (i.e., shortcuts) made to deliver on time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Unintentional technical debt&lt;/strong&gt; can be described as an accumulation of debt over time as a result of things like ignored coding standards and practices, outdated technical design, or debt incurred from constant rework and ad-hoc features added to legacy code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Unavoidable technical debt&lt;/strong&gt; can be are caused by factors out of the control of the development team. A third-party system upgrade can force the team to rework some part of the system. Or a language’s/library’s version becomes outdated making the dependent code vulnerable to attacks. Systems or tools that the software depends will evolve and can negatively impact your software.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;scenarios&#34;&gt;Scenarios&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Say you have an API with an endpoint that takes 1000ms to return a response. Clients consuming that endpoint may wait over a 1500ms —due to reduced network speeds— to receive a response from the server. If you refactor the database queries or introduce a cache layer, we can bring the round trip time (RTT) to 500ms. If you choose to leave it, the performance will degrade over time and the RTTs for that resource will only get worse as the database grows or modifications are made to that resource. This is an example where technical debt is incurred because of the platform architecture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Say you worked on a large part of a large codebase and didn’t write any tests because you had to continue meeting deadlines —I know you wanted to write tests but you just couldn’t. This is not your fault, as the business doesn’t see writing tests as important because it doesn’t directly impact the end-user; their words, not mine 🤷🏿‍♀️. After a few years, you get another gig and move to a new company. Now Raymond, oh poor Raymond; “the new guy”, has inherited the codebase. Before her can make changes to the codebase, he has to go through a lot your code to understand your thought process. To get new features out, he has to understand that neatly nested ternary that made you feel smart or that map-reduce that felt satisfying to pull off. The additional time it will take Raymond to understand and refactor the codebase would have been significantly reduced if you had written the tests originally like you intended to. Similarly, if you have been allowed to refactor that part of the project earlier, it would have made it easier to modify now. Some Raymond’s would duly inform management that a rewrite would be a better alternative than managing the current mess. This is a very common case that almost all the devs I know have experienced and it always ends with tech debt being accumulated.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are a ton of other examples of how tech debt can be accrued, if I were to list them out I don’t think I’d ever stop typing 😭.&lt;/p&gt;
+&lt;h1 id=&#34;my-experience&#34;&gt;My experience&lt;/h1&gt;
+&lt;p&gt;In 2019 when my team built the first version of gomoney, we handled certain account properties as a single number; from the account balance to the account’s transfer limits. It was an easy, albeit naive implementation which later came back to haunt us because we eventually built a lot of systems around those two main account properties. Over time the business needed to have specific limits for different kinds of transactions and this posed a problem as the current implementation only supported one limit per account. The ensuing refactor affected about 49 files. That’s a considerable surface area of a project of its size, other parts of the platform were not affected as we’d gone ahead to ensure proper separation of concerns.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jirevwe.github.io/images/git-image.png&#34; alt=&#34;Code&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In my six years as a developer, I’ve had to refactor legacy codebases, rebuild parts of or entire systems, either because the original author of the code didn’t use descriptive variable names, didn’t architect a robust solution or over-engineered the solution. As I’ve heard and read over the years “Your code will be read more times than it’ll be written” [4], so in the bid to get that new feature out, be intentional about how much debt you want to take on and put things in place ahead of time so when you or someone else wants to pay it back, it won’t be a hassle.&lt;/p&gt;
+&lt;h1 id=&#34;technical-debt-is-like-tetris&#34;&gt;Technical Debt Is Like Tetris&lt;/h1&gt;
+&lt;p&gt;Eric Higgins describes it perfectly, “PMs work with software developers to prioritize features will be built and released to customers next. Finishing a Tetris row is like shipping a feature. Shipping complex features require more rows. The software requires time more time to build correctly and tradeoffs are always made due to business requirements. The tradeoffs are represented by the “spaces” between bricks in Tetris. All code has technical debt. That’s normal and we can keep playing Tetris with a few gaps.” [2]&lt;/p&gt;
+&lt;p&gt;In our case, we paid our debt when we saw it fit to pay it back, and not before. Doing that would have been premature optimization; premature optimization is not fun at all, because you’ll be optimizing for scenarios that haven’t happened yet, based on assumptions, not experience or fact. I have a personal rule, “first make it work, then make it robust”. I urge you to not try to be a perfectionist, be like a multi-pass compiler, don’t optimise on the first pass, that’s what other passes are for 🙃😌.&lt;/p&gt;
+&lt;h1 id=&#34;prioritization&#34;&gt;Prioritization&lt;/h1&gt;
+&lt;p&gt;This is a source of great tension between product management and software development teams.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Product managers often have to prioritize features over addressing technical debt because new features for customers have the potential to generate revenue.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In contrast, software developers recognize that they could more quickly deliver high-quality features and functionality if they could remove/reduce the technical debt, which impacts the stability and the performance of the software as it accumulates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I mentioned tech debt categories earlier, however, the categorization does not help with prioritization. Categorizing technical debt using customer impact as the clincher gives the product and development teams a basis for prioritization. The team’s focus should be placed on paying back the technical debt that impacts performance and security which is usually on par with building out new features and functionality.&lt;/p&gt;
+&lt;p&gt;In this way, we make sure that there’s no reduction in user experience due to a slow, unresponsive or buggy application or platform. It also ensures that we respect data privacy and protection of the customer’s sensitive data by addressing potential security issues.&lt;/p&gt;
+&lt;h1 id=&#34;solutions&#34;&gt;Solutions&lt;/h1&gt;
+&lt;p&gt;The team at the Agile Alliance detailed a few ways to tackle technical debt [3].&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Include technical debt consideration in iteration-level activities — build tech debt into the team’s per-sprint roadmap&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Factor technical debt into release-level activities —build tech debt into the product’s roadmap.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Factor technical debt when implementing user stories — whenever possible developers on the team should pay back technical debt.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;This isn’t a fairytale, and there are no happy endings. Paying down technical debt does not always end in more users and more profit for the business but it’s essential. You can have well-architected code with 100% test coverage, but you may have no reasonable revenue. On the flip side, your company could be one large script running some messy code that makes you a ton of money. Everyone on the team — from management to developers — should share an understanding of what technical debt is. They should know when to acquire tech debt and when to pay it back.&lt;/p&gt;
+&lt;h1 id=&#34;citations--references&#34;&gt;Citations &amp;amp; References&lt;/h1&gt;
+&lt;p&gt;[1] &lt;a href=&#34;https://en.wikipedia.org/wiki/Technical_debt&#34;&gt;Wikipedia definition for Technical Debt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href=&#34;https://medium.com/@erichiggins/technical-debt-is-like-tetris-168f64d8b700&#34;&gt;Technical Debt Is Like Tetris&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3] &lt;a href=&#34;https://www.agilealliance.org/project-management-and-technical-debt/&#34;&gt;Project Management and Technical Debt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[4] &lt;a href=&#34;https://www.goodreads.com/quotes/835238-indeed-the-ratio-of-time-spent-reading-versus-writing-is&#34;&gt;Robert C. Martin Quote&lt;/a&gt;&lt;/p&gt;
+</description>
+      </item>
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+{
+  "contentdir": "content",
+  "layoutdir": "layouts",
+  "publishdir": "docs",
+
+  "builddrafts": false,
+
+  "baseurl": "https://jirevwe.github.io/",
+  "canonifyurls": true,
+  "permalinks": {
+    "post": ":year/:month/:day/:title/",
+    "fixed": ":title/"
+  },
+
+  "markup": {
+    "goldmark": {
+      "extensions": {
+        "typographer": true
+      },
+      "renderer": {
+        "unsafe": true
+      }
+    }
+  },
+
+  "pygmentsuseclasses": true,
+
+  "menu": {
+    "main": [
+      {
+        "identifier": "categories",
+        "name": "Categories Section from Menu",
+        "title": "Categories section",
+        "url": "/categories/",
+        "weight": -110
+      }
+    ]
+  },
+
+  "params": {
+    "Title": "Comp Eval",
+    "Description": "We pick a company a month and try to learn as much as we can",
+    "Author": "Raymond Tukpe",
+    "DateForm": "Jan 06, 2006",
+    "mainSections": ["post"],
+    "disableFonts": false
+  }
+}
